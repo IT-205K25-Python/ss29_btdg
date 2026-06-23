@@ -39,11 +39,6 @@ class Spellblade(Warrior, MagicalStance):
     def attack_enemy(self):
         Warrior.attack_enemy()
         MagicalStance.attack_enemy() 
-
-
-def apply_battleground_effect(environment, character):
-    def activate_buff(character):
-        print("Kích hoạt hiệu ứng buff chỉ số của ")
         
 list = []
 def inital_spellblade(list):
